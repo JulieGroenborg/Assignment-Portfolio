@@ -2,6 +2,16 @@
   margin: 100px 150px 100px 150px;
 } */
 
+header {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  line-height: 1.4rem;
+  margin-bottom: 5%;
+  font-family: "Nanum Gothic";
+}
+
 .card-wrapper {
   margin: 5%;
   container: wrapper/inline-size;
@@ -67,6 +77,7 @@ svg {
     font-size: 1.8rem;
     font-family: "Nanum Gothic";
     font-weight: 400;
+    filter: opacity(0.8);
   }
 
   & img {
@@ -209,3 +220,11 @@ svg {
 }
 
 /* 340px, 515px, 690px og 865px */
+
+@media (width < 950px) {
+  header {
+    margin: 4% 0 4% 0;
+    padding: 0 8% 0 8%;
+    font-size: 0.8rem;
+  }
+}

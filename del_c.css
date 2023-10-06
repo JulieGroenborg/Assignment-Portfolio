@@ -1,3 +1,17 @@
+header {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  line-height: 1.4rem;
+  font-family: "Nanum Gothic";
+}
+
+main {
+  position: relative;
+  margin-bottom: 5%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -126,5 +140,17 @@ img {
   }
   button {
     font-size: 1rem;
+  }
+}
+
+@media (width < 950px) {
+  header {
+    margin: 4% 0 4% 0;
+    padding: 0 8% 0 8%;
+    font-size: 0.8rem;
+  }
+
+  main {
+    margin-bottom: 25%;
   }
 }
